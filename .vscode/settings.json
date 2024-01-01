@@ -1,7 +1,7 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ]
+   "typescript.tsdk": "node_modules/typescript/lib",
+   "editor.formatOnSave": false,
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+   }
 }
